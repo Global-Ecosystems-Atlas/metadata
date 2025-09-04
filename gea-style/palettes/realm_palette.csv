@@ -1,0 +1,12 @@
+Realm,Realm_Code,Realm_Name,PixelValue,HexCode,RGB
+No Data,NA,No Data,0,#FFFFFF,"255,255,255"
+T Terrestrial,T,Terrestrial,1,#3F8E33,"63,142,51"
+S Subterranean,S,Subterranean,2,#CE8E34,"206,142,52"
+SF Subterranean-Freshwater,SF,Subterranean-Freshwater,3,#D55B41,"213,91,65"
+SM Subterranean-Marine,SM,Subterranean-Marine,4,#ABAA37,"171,170,55"
+TF Terrestrial-Freshwater,TF,Terrestrial-Freshwater,5,#2F675C,"47,103,92"
+F Freshwater,F,Freshwater,6,#4EACB0,"78,172,176"
+FM Freshwater-Marine,FM,Freshwater-Marine,7,#853E90,"133,62,144"
+M Marine,M,Marine,8,#2860C4,"40,96,196"
+MT Marine-Terrestrial,MT,Marine-Terrestrial,9,#484992,"72,73,146"
+MFT Marine-Freshwater-Terrestrial,MFT,Marine-Freshwater-Terrestrial,10,#BF3250,"191,50,80"
