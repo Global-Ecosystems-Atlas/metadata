@@ -1,0 +1,27 @@
+Biome,Biome_Code,Biome_Name,PixelValue
+No Data,NA,No Data,0
+T1 Tropical-subtropical forests,T1,Tropical-subtropical forests,1
+T2 Temperate-boreal forests and woodlands,T2,Temperate-boreal forests and woodlands,2
+T3 Shrublands and shrubby woodlands,T3,Shrublands and shrubby woodlands,3
+T4 Savannas and grasslands,T4,Savannas and grasslands,4
+T5 Deserts and semi-deserts,T5,Deserts and semi-deserts,5
+T6 Polar/alpine (cryogenic),T6,Polar/alpine (cryogenic),6
+T7 Intensive land-use,T7,Intensive land-use,7
+S1 Subterranean lithic,S1,Subterranean lithic,8
+S2 Anthropogenic subterranean voids,S2,Anthropogenic subterranean voids,9
+SF1 Subterranean freshwaters,SF1,Subterranean freshwaters,10
+SF2 Anthropogenic subterranean freshwaters,SF2,Anthropogenic subterranean freshwaters,11
+SM1 Subterranean tidal,SM1,Subterranean tidal,12
+TF1 Palustrine wetlands,TF1,Palustrine wetlands,13
+F1 Rivers and streams,F1,Rivers and streams,14
+F2 Lakes,F2,Lakes,15
+F3 Artificial wetlands,F3,Artificial wetlands,16
+FM1 Semi-confined transitional waters,FM1,Semi-confined transitional waters,17
+M1 Marine shelf,M1,Marine shelf,18
+M2 Pelagic ocean waters,M2,Pelagic ocean waters,19
+M3 Deep sea floors,M3,Deep sea floors,20
+M4 Anthropogenic marine,M4,Anthropogenic marine,21
+MT1 Shorelines,MT1,Shorelines,22
+MT2 Supralittoral coastal,MT2,Supralittoral coastal,23
+MT3 Anthropogenic shorelines,MT3,Anthropogenic shorelines,24
+MFT1 Brackish tidal,MFT1,Brackish tidal,25

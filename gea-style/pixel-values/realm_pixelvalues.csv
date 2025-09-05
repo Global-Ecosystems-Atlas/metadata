@@ -1,0 +1,12 @@
+Realm,Realm_Code,Realm_Name,PixelValue
+No Data,NA,No Data,0
+T Terrestrial,T,Terrestrial,1
+S Subterranean,S,Subterranean,2
+SF Subterranean-Freshwater,SF,Subterranean-Freshwater,3
+SM Subterranean-Marine,SM,Subterranean-Marine,4
+TF Terrestrial-Freshwater,TF,Terrestrial-Freshwater,5
+F Freshwater,F,Freshwater,6
+FM Freshwater-Marine,FM,Freshwater-Marine,7
+M Marine,M,Marine,8
+MT Marine-Terrestrial,MT,Marine-Terrestrial,9
+MFT Marine-Freshwater-Terrestrial,MFT,Marine-Freshwater-Terrestrial,10
