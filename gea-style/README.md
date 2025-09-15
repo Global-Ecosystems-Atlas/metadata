@@ -1,6 +1,6 @@
-# Global Ecosystems Atlas Style Guides
+# Global Ecosystems Atlas Styles
 
-This folder houses tables documenting the GEA style guides:
+This folder houses tables, lists and colour palettes that enable consistent representation of the Global Ecosystems Atlas:
 
-* Palettes are provided to enable implementation of the GEA standard colour scheme
-* Numeral schemes (an integer, "PixelValue") are presented for GET classes (useful for statistical modelling and representation as a raster dataset). The numeral schemed has been designed to allow minor the inclusion of any new classes that may occur due to future updates to the Global Ecosystem Typology.
+* Colour palettes are provided in list and tabular format to offer standard representation of Realms, Biomes and Ecosystem Functional Groups. Colours are represented as both hexcodes and RGB colour levels. 
+* The Global Ecosystem Atlas numeral scheme enables representation of the Global Ecosystems Typology as integers. The integers (column: "PixelValue") are essential for supporting statistical models tasked with estimating the distribution of ecosystems and for representing the Global Ecosystem Typology as an 8-bit raster data in the Global Ecosystems Atlas Synthesis dataset. The numeral schemed was designed to be able to accommodate changes in any future versions or updates of the IUCN Global Ecosystem Typology.
