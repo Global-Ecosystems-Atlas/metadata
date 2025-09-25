@@ -1,4 +1,4 @@
-# Global Ecosystems Atlas Style Guides
+# Global Ecosystems Atlas Metadata
 
 This folder houses a range of metadata relevant to compiling and presenting the Global Ecosystems Atlas, including:
 
