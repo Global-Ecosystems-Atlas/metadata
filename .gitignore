@@ -15,6 +15,7 @@
 archive/
 scratch/
 test/
+R/
 
 # Regex
 *cache
