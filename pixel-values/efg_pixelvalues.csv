@@ -1,5 +1,5 @@
 EFG,EFG_Code,EFG_Name,PixelValue
-No Data,0,No Data,0
+No Data,NA,No Data,0
 T1.1 Tropical/Subtropical lowland rainforests,T1.1,Tropical/Subtropical lowland rainforests,1
 T1.2 Tropical/Subtropical dry forests and thickets,T1.2,Tropical/Subtropical dry forests and thickets,2
 T1.3 Tropical/Subtropical montane rainforests,T1.3,Tropical/Subtropical montane rainforests,3
@@ -110,4 +110,4 @@ MT3.1 Artificial shorelines,MT3.1,Artificial shorelines,166
 MFT1.1 Coastal river deltas,MFT1.1,Coastal river deltas,168
 MFT1.2 Intertidal forests and shrublands,MFT1.2,Intertidal forests and shrublands,169
 MFT1.3 Coastal saltmarshes and reedbeds,MFT1.3,Coastal saltmarshes and reedbeds,170
-NA No Data,NA,No Data,255
+No Data (data exists in source maps but cross-referenced to no data due to incompatible class descriptions),NA,Cross-referenced to 255 due to incompatible class descriptions,255
