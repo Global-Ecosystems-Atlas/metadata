@@ -17,7 +17,7 @@ This folder houses a range of metadata relevant to compiling and presenting the 
 
 #### Change-log
 
-* An md document providing a log of each notable change of the Global Ecosystems Atlas data products or resources.
+* A .md document providing a log of each notable change of the Global Ecosystems Atlas data products or resources.
 
 ### License
 This work is licensed under a
