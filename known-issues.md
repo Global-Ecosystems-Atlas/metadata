@@ -1,11 +1,7 @@
-# Global Ecosystems Atlas Change Log
+# Global Ecosystems Atlas Known Issues
 
-This document provides a log of each notable change of the Global Ecosystems Atlas data products or resources. We list notable changes by date and include notable changes, major new features, announcements, or data products. Please note that changes to the Global Ecosystems Atlas Initiative prior to September 1 2025 are not listed here.
+This document lists known issues with the Global Ecosystems Atlas data products. Known issues are primarily errors, limitations, or inaccuracies that are present in the atlas data products. Known issues listed here are typically outside of the remit of the Global Ecosystems Atlas science program and are overwhelmingly due to errors in source data, such as mapping or classification errors. Issues that are within the remit of the Global Ecosystems Atlas science program, such as software bugs or artefacts introduced in geospatial processing, are tracked using github issues in the respective repository or in the (Global Ecosystems Atlas feedback repository)[https://github.com/Global-Ecosystems-Atlas/feedback]. 
 
-### 1 September 2025
-* New Github organisation established ([link](https://github.com/Global-Ecosystems-Atlas)).
-* Previous Github organisation archived and users redirected ([link](https://github.com/geo-global-ecosystem-atlas).
+## Known Issues
+* Braided rivers in New Zealand are mapped as tidal flats in some cases.
 
-### 17 September 2025
-* Global Ecosystems Atlas colour palette and numeral scheme made available via Github ([link](https://github.com/Global-Ecosystems-Atlas/metadata))
-* IUCN Cross-referencing tables made open-access ([link](https://github.com/Global-Ecosystems-Atlas/cross-reference-tables))
