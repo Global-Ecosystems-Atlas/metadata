@@ -1,0 +1,725 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "3.4.0",
+  "build" : 55405,
+  "layers" : [
+    "CIMPATH=Map/TempLyr.json"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMRasterLayer",
+      "name" : "TempLyr",
+      "uRI" : "CIMPATH=Map/TempLyr.json",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "description" : "TempLyr",
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : true,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "dataConnection" : {
+        "type" : "CIMStandardDataConnection",
+        "workspaceConnectionString" : "DATABASE=C:\\Users\\jd172189\\Downloads\\Snippet\\",
+        "workspaceFactory" : "Raster",
+        "dataset" : "raster_template_2.tif",
+        "datasetType" : "esriDTRasterDataset"
+      },
+      "colorizer" : {
+        "type" : "CIMRasterUniqueValueColorizer",
+        "resamplingType" : "NearestNeighbor",
+        "noDataColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "fieldName" : "Value",
+        "groups" : [
+          {
+            "type" : "CIMRasterUniqueValueGroup",
+            "classes" : [
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "0"
+                ],
+                "label" : "No Data",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    255,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "1"
+                ],
+                "label" : "T1 Tropical-subtropical forests",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    132,
+                    82,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "2"
+                ],
+                "label" : "T2 Temperate-boreal forests and woodlands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    119,
+                    103,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "3"
+                ],
+                "label" : "T3 Shrublands and shrubby woodlands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    104,
+                    111,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "4"
+                ],
+                "label" : "T4 Savannas and grasslands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    192,
+                    28,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "5"
+                ],
+                "label" : "T5 Deserts and semi-deserts",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    223,
+                    182,
+                    100,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "6"
+                ],
+                "label" : "T6 Polar/alpine (cryogenic)",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    215,
+                    215,
+                    215,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "7"
+                ],
+                "label" : "T7 Intensive land-use",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    234,
+                    19,
+                    148,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "8"
+                ],
+                "label" : "S1 Subterranean lithic",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    160,
+                    143,
+                    38,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "9"
+                ],
+                "label" : "S2 Anthropogenic subterranean voids",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    114,
+                    139,
+                    44,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "10"
+                ],
+                "label" : "SF1 Subterranean freshwaters",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    234,
+                    166,
+                    148,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "11"
+                ],
+                "label" : "SF2 Anthropogenic subterranean freshwaters",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    194,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "12"
+                ],
+                "label" : "SM1 Subterranean tidal",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    129,
+                    162,
+                    59,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "13"
+                ],
+                "label" : "TF1 Palustrine wetlands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    98,
+                    154,
+                    142,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "14"
+                ],
+                "label" : "F1 Rivers and streams",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    23,
+                    194,
+                    182,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "15"
+                ],
+                "label" : "F2 Lakes",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    26,
+                    197,
+                    217,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "16"
+                ],
+                "label" : "F3 Artificial wetlands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    107,
+                    206,
+                    129,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "17"
+                ],
+                "label" : "FM1 Semi-confined transitional waters",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    176,
+                    0,
+                    121,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "18"
+                ],
+                "label" : "M1 Marine shelf",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    100,
+                    96,
+                    192,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "19"
+                ],
+                "label" : "M2 Pelagic ocean waters",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    136,
+                    96,
+                    186,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "20"
+                ],
+                "label" : "M3 Deep sea floors",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    5,
+                    88,
+                    105,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "21"
+                ],
+                "label" : "M4 Anthropogenic marine",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    183,
+                    102,
+                    171,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "22"
+                ],
+                "label" : "MT1 Shorelines",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    107,
+                    104,
+                    181,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "23"
+                ],
+                "label" : "MT2 Supralittoral coastal",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    142,
+                    137,
+                    218,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "24"
+                ],
+                "label" : "MT3 Anthropogenic shorelines",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    179,
+                    172,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "25"
+                ],
+                "label" : "MFT1 Brackish tidal",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    209,
+                    136,
+                    142,
+                    100
+                  ]
+                }
+              }
+            ],
+            "heading" : "Value"
+          }
+        ],
+        "colorRamp" : {
+          "type" : "CIMMultipartColorRamp",
+          "colorRamps" : [
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  76.846907633328769,
+                  0,
+                  0,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  56.547017615341019,
+                  76.899433471346256,
+                  68.103444271380823,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  56.547017615341019,
+                  76.899433471346256,
+                  68.103444271380823,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  79.276993261605071,
+                  17.12111142164019,
+                  77.09125175223042,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  79.276993261605071,
+                  17.12111142164019,
+                  77.09125175223042,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  96.683616491167115,
+                  -20.419171018551619,
+                  87.367929001284963,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  96.683616491167115,
+                  -20.419171018551619,
+                  87.367929001284963,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  85.607074229000403,
+                  -91.486192975967157,
+                  73.962202685380788,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  85.607074229000403,
+                  -91.486192975967157,
+                  73.962202685380788,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  96.683616491167115,
+                  -20.419171018551619,
+                  87.367929001284963,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  89.644590646826003,
+                  -51.521697716782114,
+                  -16.300660645455501,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  68.955513833844876,
+                  -14.700660868053717,
+                  -47.117856942647563,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  68.955513833844876,
+                  -14.700660868053717,
+                  -47.117856942647563,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  34.668982832368499,
+                  71.125560221348664,
+                  -101.88789308244294,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  34.668982832368499,
+                  71.125560221348664,
+                  -101.88789308244294,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  63.995042207660305,
+                  92.113234125181236,
+                  -53.03187738755495,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  63.995042207660305,
+                  92.113234125181236,
+                  -53.03187738755495,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  56.547017615341019,
+                  76.899433471346256,
+                  68.103444271380823,
+                  100
+                ]
+              }
+            }
+          ],
+          "weights" : [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "attributeTable" : {
+        "type" : "CIMRasterTable",
+        "displayField" : "Value",
+        "editable" : true
+      }
+    }
+  ],
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2"
+}
