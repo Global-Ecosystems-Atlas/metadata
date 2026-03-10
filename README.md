@@ -31,5 +31,5 @@ This work is licensed under a
 
 
 ### Further information:
-For any enquiries about this repository please contact [Nick Murray](nicholas.murray@jcu.edu.au) or [Ben Cresswell](benjamin.cresswell@jcu.edu.au).
+For any enquiries about this repository please contact [Nick Murray](mailto:nicholas.murray@jcu.edu.au) or [Ben Cresswell](mailto:benjamin.cresswell@jcu.edu.au).
 
