@@ -116,7 +116,7 @@
         <paletteEntry value="158" color="#A49EF0" label="MT1.2 Muddy shorelines" alpha="255"/>
         <paletteEntry value="159" color="#C2BAFF" label="MT1.3 Sandy shorelines" alpha="255"/>
         <paletteEntry value="160" color="#E0D7FF" label="MT1.4 Boulder and cobble shorelines" alpha="255"/>
-        <paletteEntry value="163" color="#726BDA" label="MT2.1 Coastal shingle resource" alpha="255"/>
+        <paletteEntry value="163" color="#726BDA" label="MT2.1 Coastal shrublands and grasslands" alpha="255"/>
         <paletteEntry value="164" color="#5651A6" label="MT2.2 Large coastal dunes and beach ridge systems" alpha="255"/>
         <paletteEntry value="166" color="#CEC9FF" label="MT3.1 Artificial shorelines" alpha="255"/>
         <paletteEntry value="168" color="#AC676D" label="MFT1.1 Coastal river deltas" alpha="255"/>
@@ -132,3 +132,4 @@
   <blendMode>0</blendMode>
 
 </qgis>
+
