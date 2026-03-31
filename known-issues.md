@@ -20,4 +20,4 @@ This document lists known issues with the Global Ecosystems Atlas data products.
 * Anthropogenic areas are not mapped to EFG level in Chile, data only includes natural areas, resulting in data gaps in the wall-to-wall map.
 * Netherlands map: raster code 111 "Coastal dunes and beaches" contains two EFGs with no memberships assigned. Map classed cross-referenced to "no data", resulting in data gaps in the wall-to-wall map. Additionally, canals/artificial ecosystems were grouped with natural freshwater classes.
 * Lake Ijsselmeer (>>10ha) mapped as a small permanent freshwater lake (<10ha). 
-
+* Compared similar landcover maps of the Tibetan Plateau (wuhan_tibet_lcov_2024 sourceID=285 and tut_tibet_veg_2024 sourceID=374). The map wuhan_tibet_lcov_2024 will be overlaid over tut_tibet_veg_2024 due to better class descriptions, higher proportion of classes crosswalked and more recent imagery used. Both datasets lacked classes that crosswalked to T5.4 EFG due to poor ecosystem descriptions, despite this EFG known to be very prevalent in this area. 
