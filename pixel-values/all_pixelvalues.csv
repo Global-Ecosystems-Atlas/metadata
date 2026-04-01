@@ -85,7 +85,7 @@ M1.6 Subtidal rocky reefs,M1.6,Subtidal rocky reefs,125,M1 Marine shelf,M1,Marin
 M1.7 Subtidal sand beds,M1.7,Subtidal sand beds,126,M1 Marine shelf,M1,Marine shelf,18,M Marine,M,Marine,8
 M1.8 Subtidal mud plains,M1.8,Subtidal mud plains,127,M1 Marine shelf,M1,Marine shelf,18,M Marine,M,Marine,8
 M1.9 Upwelling zones,M1.9,Upwelling zones,128,M1 Marine shelf,M1,Marine shelf,18,M Marine,M,Marine,8
-M1.10 Rhodolith/Maërl beds,M1.10,Rhodolith/Maërl beds,129,M1 Marine shelf,M1,Marine shelf,18,M Marine,M,Marine,8
+M1.10 Rhodolith/MaÃ«rl beds,M1.10,Rhodolith/MaÃ«rl beds,129,M1 Marine shelf,M1,Marine shelf,18,M Marine,M,Marine,8
 M2.1 Epipelagic ocean waters,M2.1,Epipelagic ocean waters,135,M2 Pelagic ocean waters,M2,Pelagic ocean waters,19,M Marine,M,Marine,8
 M2.2 Mesopelagic ocean water,M2.2,Mesopelagic ocean water,136,M2 Pelagic ocean waters,M2,Pelagic ocean waters,19,M Marine,M,Marine,8
 M2.3 Bathypelagic ocean waters,M2.3,Bathypelagic ocean waters,137,M2 Pelagic ocean waters,M2,Pelagic ocean waters,19,M Marine,M,Marine,8
@@ -110,3 +110,4 @@ MT3.1 Artificial shorelines,MT3.1,Artificial shorelines,166,MT3 Anthropogenic sh
 MFT1.1 Coastal river deltas,MFT1.1,Coastal river deltas,168,MFT1 Brackish tidal,MFT1,Brackish tidal,25,MFT Marine-Freshwater-Terrestrial,MFT,Marine-Freshwater-Terrestrial,10
 MFT1.2 Intertidal forests and shrublands,MFT1.2,Intertidal forests and shrublands,169,MFT1 Brackish tidal,MFT1,Brackish tidal,25,MFT Marine-Freshwater-Terrestrial,MFT,Marine-Freshwater-Terrestrial,10
 MFT1.3 Coastal saltmarshes and reedbeds,MFT1.3,Coastal saltmarshes and reedbeds,170,MFT1 Brackish tidal,MFT1,Brackish tidal,25,MFT Marine-Freshwater-Terrestrial,MFT,Marine-Freshwater-Terrestrial,10
+
