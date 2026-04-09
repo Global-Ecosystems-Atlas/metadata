@@ -9,8 +9,19 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 * Addition of JCU inference maps
 
 #### Fixed
-* Iterations of the data mask layer
 * GLIMS glacier data processing issues
+
+## v0.0.13 - 3 April 2026
+* v0.0.13 synthesis map export completed
+
+#### Added
+* Functionality to directly ingest cross-reference tables via a scripted workflow
+
+#### Changed
+* Data mask layer displays where pixels were assigned an EFG, true no data pixels and pixels that were mapped in the source data but could not be cross-referenced to Level 3 of the GET
+
+#### Fixed
+* Data mask fixes implemented
 
 ## v0.0.12 - 24 February 2026
 * v0.0.12 synthesis map export completed
