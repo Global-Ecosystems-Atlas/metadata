@@ -19,6 +19,9 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 
 #### Changed
 * Data mask layer displays where pixels were assigned an EFG, true no data pixels and pixels that were mapped in the source data but could not be cross-referenced to Level 3 of the GET
+* New data model implemented:
+<img width="1122" height="575" alt="image" src="https://github.com/user-attachments/assets/14062b19-013d-4d2d-9d6d-813cb565b6b4" />
+
 
 #### Fixed
 * Data mask fixes implemented
