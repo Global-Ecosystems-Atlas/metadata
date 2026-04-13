@@ -2,7 +2,8 @@
 
 This document provides a log of all notable changes of the Global Ecosystems Atlas data products or resources. We list notable changes by date and include notable changes, major new features, announcements, or data products. Please note that changes to the Global Ecosystems Atlas Initiative prior to September 1 2025 are not listed here. We use principles from [keep a change log](https://keepachangelog.com/en/1.1.0/).
 
-## Unreleased - Late June 2026
+## Synthesis map unreleased - Late June 2026
+
 #### Added
 * Functionality to update existing source data with new versions
 * Addition of 20-30 new datasets
@@ -11,7 +12,13 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 #### Fixed
 * GLIMS glacier data processing issues
 
-## v0.0.13 - 3 April 2026
+
+## EcoTrain v0.1.3 - 13 April 2026
+
+See [release note](https://github.com/Global-Ecosystems-Atlas/ecotrain/releases/tag/v0.1.3)
+
+
+## Synthesis map v0.0.13 - 3 April 2026
 * v0.0.13 synthesis map export completed
 
 #### Added
@@ -22,11 +29,16 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 * New data model implemented:
 <img width="1122" height="575" alt="image" src="https://github.com/user-attachments/assets/14062b19-013d-4d2d-9d6d-813cb565b6b4" />
 
-
 #### Fixed
 * Data mask fixes implemented
 
-## v0.0.12 - 24 February 2026
+
+## EcoTrain v0.1.2 - 2 March 2026
+
+See [release note](https://github.com/Global-Ecosystems-Atlas/ecotrain/releases/tag/v0.1.2)
+
+
+## Synthesis map v0.0.12 - 24 February 2026
 * v0.0.12 synthesis map export completed
 
 #### Changed
@@ -37,11 +49,17 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 * Small shifts between some of the data bands fixed
 * Spatial shifts in South Africa also fixed
 
-## v0.0.11 - 6 February 2026
+
+## EcoTrain v0.1.1 - 10 February 2026
+
+See [release note](https://github.com/Global-Ecosystems-Atlas/ecotrain/releases/tag/v0.1.1)
+
+
+## Synthesis map v0.0.11 - 6 February 2026
 * v0.0.11 synthesis map export completed
 
 #### Changed
-* cell size layer to display "999" for vector data
+* Cell size layer to display "999" for vector data
 
 #### Fixed
 * Data mask now displays three values (0,1,2) for true no data, data incompatible with the GET, and data cross-referenced to EFG
@@ -51,12 +69,13 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 #### Removed
 * GLIMS glacier dataset due to issues processing the dataset, to be readded once resolved
 
-## v0.0.10 - 26 January 2026
+
+## Synthesis map v0.0.10 - 26 January 2026
 * v0.0.10 synthesis map export completed minus the data mask layer
 
 #### Added
 * Ten datasets added to the synthesis map
-  * Global Dam Watch data filter applied to exclude dams with average depths of <15m in line with the Level 3 GET definition
+* Global Dam Watch data filter applied to exclude dams with average depths of <15m in line with the Level 3 GET definition
 
 #### Changed
 * Now using vector format for the Global Mangrove Watch dataset
@@ -68,9 +87,16 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 #### Removed
 * SDPT v2 dataset "planted forest" class due to incompatibilities with the GET.
 
+
+## EcoTrain v0.1.0 - 23 December 2025
+
+See [release note](https://github.com/Global-Ecosystems-Atlas/ecotrain/releases/tag/v0.1.0)
+
+
 ## 1 September 2025
 * New Github organisation established ([link](https://github.com/Global-Ecosystems-Atlas)).
 * Previous Github organisation archived and users redirected ([link](https://github.com/geo-global-ecosystem-atlas).
+
 
 ## 17 September 2025
 * Global Ecosystems Atlas colour palette and numeral scheme made available via Github ([link](https://github.com/Global-Ecosystems-Atlas/metadata))
