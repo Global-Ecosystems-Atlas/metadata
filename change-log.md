@@ -56,6 +56,7 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 
 #### Added
 * Ten datasets added to the synthesis map
+  * Global Dam Watch data filter applied to exclude dams with average depths of <15m in line with the Level 3 GET definition
 
 #### Changed
 * Now using vector format for the Global Mangrove Watch dataset
