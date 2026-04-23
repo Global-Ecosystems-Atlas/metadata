@@ -13,7 +13,7 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 * GLIMS glacier data processing issues
 
 
-## EcoTrain v0.1.3 - 13 April 2026
+## EcoTrain Training Dataset v0.1.3 - 13 April 2026
 
 See [release note](https://github.com/Global-Ecosystems-Atlas/ecotrain/releases/tag/v0.1.3)
 
@@ -33,7 +33,7 @@ See [release note](https://github.com/Global-Ecosystems-Atlas/ecotrain/releases/
 * Data mask fixes implemented
 
 
-## EcoTrain v0.1.2 - 2 March 2026
+## EcoTrain Training Dataset v0.1.2 - 2 March 2026
 
 See [release note](https://github.com/Global-Ecosystems-Atlas/ecotrain/releases/tag/v0.1.2)
 
@@ -50,7 +50,7 @@ See [release note](https://github.com/Global-Ecosystems-Atlas/ecotrain/releases/
 * Spatial shifts in South Africa also fixed
 
 
-## EcoTrain v0.1.1 - 10 February 2026
+## EcoTrain Training Dataset v0.1.1 - 10 February 2026
 
 See [release note](https://github.com/Global-Ecosystems-Atlas/ecotrain/releases/tag/v0.1.1)
 
@@ -88,7 +88,7 @@ See [release note](https://github.com/Global-Ecosystems-Atlas/ecotrain/releases/
 * SDPT v2 dataset "planted forest" class due to incompatibilities with the GET.
 
 
-## EcoTrain v0.1.0 - 23 December 2025
+## EcoTrain Training Dataset v0.1.0 - 23 December 2025
 
 See [release note](https://github.com/Global-Ecosystems-Atlas/ecotrain/releases/tag/v0.1.0)
 
