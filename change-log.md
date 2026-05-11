@@ -12,6 +12,18 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 #### Fixed
 * GLIMS glacier data processing issues
 
+## Synthesis map v0.0.15 - 8 May 2026
+* v0.0.15 synthesis map export completed
+
+#### Changed
+* Data mask layer pixel values are now 0-2
+  * 0 = True no data
+  * 1 = EFG assigned to pixel
+  * 2 = Source map class could not be assigned to an EFG
+
+#### Fixed
+* Various bugs fixed
+
 
 ## EcoTrain Training Dataset v0.1.4 - 8 May 2026
 
