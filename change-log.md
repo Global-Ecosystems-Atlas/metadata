@@ -12,6 +12,12 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 #### Fixed
 * GLIMS glacier data processing issues
 
+
+## EcoTrain Training Dataset v0.1.5 - 23 June 2026
+
+See [release note](https://github.com/Global-Ecosystems-Atlas/ecotrain/releases/tag/v0.1.5)
+
+
 ## Synthesis map v0.0.15 - 8 May 2026
 * v0.0.15 synthesis map export completed
 
