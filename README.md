@@ -5,7 +5,8 @@ This folder houses a range of metadata relevant to compiling and presenting the 
 #### Colour palettes
 
 * Standardised colour palettes provided in list and tabular format to enable consistent graphical of Atlas classes (IUCN GET) across platforms.
-* Palette values are represented as both Hex codes and RGB colour levels. 
+* Palette values are represented as both Hex codes and RGB colour levels.
+* To use the colour palettes, see the [Using Symbology Palettes](https://github.com/Global-Ecosystems-Atlas/metadata/wiki/Using-Symbology-Palettes) wiki page.
 
 #### Pixel values: 
 
