@@ -2,20 +2,33 @@
 
 This document provides a log of all notable changes of the Global Ecosystems Atlas data products or resources. We list notable changes by date and include notable changes, major new features, announcements, or data products. Please note that changes to the Global Ecosystems Atlas Initiative prior to September 1 2025 are not listed here. We use principles from [keep a change log](https://keepachangelog.com/en/1.1.0/).
 
-## Synthesis map unreleased - Late June 2026
+## Synthesis map unreleased - October 2026
 
 #### Added
 * Functionality to update existing source data with new versions
-* Addition of 20-30 new datasets
+* Addition of new datasets
 * Addition of JCU inference maps
 
-#### Fixed
-* GLIMS glacier data processing issues
-
+#### Changed
+* Single-band layer name changes
+* 5-digit Layer ID implemented
 
 ## EcoTrain Training Dataset v0.1.5 - 23 June 2026
 
 See [release note](https://github.com/Global-Ecosystems-Atlas/ecotrain/releases/tag/v0.1.5)
+
+
+## Synthesis map v0.0.16 - 13 June 2026
+* v0.0.16 synthesis map export completed
+
+#### Added
+* 12 new datasets included in this version, including global crop layers and the USA national map
+
+#### Changed
+* Cross-reference tables produced and applied per-layer rather than per-source 
+
+#### Fixed
+* Various bugs fixed
 
 
 ## Synthesis map v0.0.15 - 8 May 2026
