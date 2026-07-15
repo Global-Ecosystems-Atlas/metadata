@@ -4,6 +4,14 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 
 ## Synthesis map unreleased - October 2026
 
+#### Changed
+* Metadata pixel value file names
+* Metadata pixel value column names to lower case and similar structure
+* Add and clarify Metadata pixel values of 0 for no data and 255 as non-referable
+
+
+## Synthesis map unreleased - October 2026
+
 #### Added
 * Functionality to update existing source data with new versions
 * Addition of new datasets

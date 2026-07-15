@@ -10,7 +10,7 @@ This folder houses a range of metadata relevant to compiling and presenting the 
 
 #### Pixel values: 
 
-* A standard numerical scheme ("PixelValue", integer) is presented for GET classes used in the Global Ecosystems Atlas.
+* A standard numerical scheme ("pixel_value", integer) is presented for GET classes used in the Global Ecosystems Atlas.
 * This variable is essential for:
       (i) supporting statistical models tasked with estimating the distribution of ecosystems
       (ii) representing the Global Ecosystem Typology as an 8-bit raster data in the Global Ecosystems Atlas Synthesis dataset. 
