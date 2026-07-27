@@ -2,6 +2,7 @@
 
 This document provides a log of all notable changes of the Global Ecosystems Atlas data products or resources. We list notable changes by date and include notable changes, major new features, announcements, or data products. Please note that changes to the Global Ecosystems Atlas Initiative prior to September 1 2025 are not listed here. We use principles from [keep a change log](https://keepachangelog.com/en/1.1.0/).
 
+
 ## Synthesis map unreleased - October 2026
 
 #### Changed
@@ -20,6 +21,12 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 #### Changed
 * Single-band layer name changes
 * 5-digit Layer ID implemented
+
+
+## EcoTrain Training Dataset v0.1.6 - 27 July 2026
+
+See [release note](https://github.com/Global-Ecosystems-Atlas/ecotrain/releases/tag/v0.1.6)
+
 
 ## EcoTrain Training Dataset v0.1.5 - 23 June 2026
 
