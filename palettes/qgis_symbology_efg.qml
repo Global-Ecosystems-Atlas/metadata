@@ -81,7 +81,7 @@
         <paletteEntry value="100" color="#005C6B" label="F2.9 Geothermal pools and wetlands" alpha="255"/>
         <paletteEntry value="101" color="#004252" label="F2.10 Subglacial lakes" alpha="255"/>
         <paletteEntry value="107" color="#C4FFBE" label="F3.1 Large reservoirs" alpha="255"/>
-        <paletteEntry value="108" color="#ABF5A3" label="F3.2 Constructed wetlads" alpha="255"/>
+        <paletteEntry value="108" color="#ABF5A3" label="F3.2 Constructed lacustrine wetlands" alpha="255"/>
         <paletteEntry value="109" color="#90DAA0" label="F3.3 Rice paddies" alpha="255"/>
         <paletteEntry value="110" color="#51D4B1" label="F3.4 Freshwater aquafarms" alpha="255"/>
         <paletteEntry value="111" color="#47BA9B" label="F3.5 Canals, ditches and drains" alpha="255"/>
