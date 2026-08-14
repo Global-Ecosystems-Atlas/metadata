@@ -3,23 +3,30 @@
 This document lists known issues with the Global Ecosystems Atlas data products. Known issues are primarily errors, limitations, or inaccuracies that are present in the atlas data products. Known issues listed here are typically outside of the remit of the Global Ecosystems Atlas science program and are overwhelmingly due to errors in source data, such as mapping or classification errors. Issues that are within the remit of the Global Ecosystems Atlas science program, such as software bugs or artefacts introduced in geospatial processing, are tracked using github issues in the respective repository or in the (Global Ecosystems Atlas feedback repository)[https://github.com/Global-Ecosystems-Atlas/feedback]. 
 
 ## Known Issues
+
+### Countries with data gaps
 * Myanmar anthropogenic areas are not mapped to EFG level, data only includes natural areas, resulting in data gaps in the wall-to-wall map. 
 * Country boundaries of low fidelity lead to no data slivers between Germany and Netherlands.
 * 10 out of 40 classes in the Wales map cross-referenced to "no data", resulting in data gaps in the wall-to-wall map.
 * 5 out of 30 classes in the Puerto Rico map cross-referenced to "no data", resulting in data gaps in the wall-to-wall map.
 * Anthropogenic areas are not mapped to EFG level for Malawi, data only includes natural areas, resulting in data gaps in the wall-to-wall map.
-* Many classes in the Mexico map cross-referenced to "no data", particularly those with anthropogenic influence (eg. secondary vegetation classes) resulting in data gaps in the wall-to-wall map. 
+* Many classes in the Mexico map cross-referenced to "no data", particularly those with anthropogenic influence (eg. secondary vegetation classes) resulting in data gaps in the wall-to-wall map.
 * Country boundaries of low fidelity lead to no data slivers between Eswatini, Lesotho, South Africa, Malawi and Mozambique.
-* Lack of distinction between T7.4 and artificial shorelines in map classes at a global scale. 
 * Anthropogenic areas are not mapped to EFG level for the Queensland vegetation map. Data only includes natural areas, resulting in data gaps in the wall-to-wall map.
 * Some classes in the Italy map could not be assigned to a single EFG. These were cross-referenced to "no data", resulting in data gaps in the wall-to-wall map.
-* Germany map contains a single class representing all rivers. River class was cross-referenced to F1.2, however more EFG types may be present.
 * Many classes in the Brazil map cross-referenced to "no data", particularly those with anthropogenic influence (eg. secondary vegetation classes, and classes Vs, Vsp and Vss) resulting in data gaps in the wall-to-wall map.
 * Only partial data exists for Finland, primarily lakes and forests, leaving a large area of the country unmapped to EFG level.
 * Anthropogenic areas are not mapped to EFG level in Mozambique, data only includes natural areas, resulting in data gaps in the wall-to-wall map.
-* Anthropogenic areas are not mapped to EFG level in Chile, data only includes natural areas, resulting in data gaps in the wall-to-wall map.
 * Netherlands map: raster code 111 "Coastal dunes and beaches" contains two EFGs with no memberships assigned. Map classed cross-referenced to "no data", resulting in data gaps in the wall-to-wall map. Additionally, canals/artificial ecosystems were grouped with natural freshwater classes.
+* Anthropogenic areas are not mapped to EFG level in Chile, data only includes natural areas, resulting in data gaps in the wall-to-wall map.
+* Freshwater ecosystems not mapped to Level 3 GET in the USA, resulting in data gaps.
+
+### Cross-referencing challenges
+* Lack of distinction between T7.4 and artificial shorelines in map classes at a global scale. 
+* Germany map contains a single class representing all rivers. River class was cross-referenced to F1.2, however more EFG types may be present.
 * Lake Ijsselmeer (>>10ha) mapped as a small permanent freshwater lake (<10ha). 
-* Compared similar landcover maps of the Tibetan Plateau (wuhan_tibet_lcov_2024 sourceID=285 and tut_tibet_veg_2024 sourceID=374). The map wuhan_tibet_lcov_2024 will be overlaid over tut_tibet_veg_2024 due to better class descriptions, higher proportion of classes crosswalked and more recent imagery used. Both datasets lacked classes that crosswalked to T5.4 EFG due to poor ecosystem descriptions, despite this EFG known to be very prevalent in this area.
+* Compared similar landcover maps of the Tibetan Plateau (wuhan_tibet_lcov_2024 sourceID=285 and tut_tibet_veg_2024 sourceID=374). The map wuhan_tibet_lcov_2024 will be overlaid over tut_tibet_veg_2024 due to better class descriptions, higher proportion of classes cross-referenced and more recent imagery used. Both datasets lacked classes that cross-referenced to T5.4 EFG due to poor ecosystem descriptions, despite this EFG known to be very prevalent in this area.
 * Broad vegetation classes in the Mexico Map namely :- BOSQUE DE AYARÍN | BOSQUE DE CEDRO | BOSQUE DE OYAMEL | BOSQUE DE PINO | BOSQUE DE PINO-ENCINO | BOSQUE DE TÁSCATE are crosswalked to T2.1 Boreal Forests as they are forests made up primarily of needle-leaf coniferous trees. However, in the South of Mexico (for example the Siera Madres de Chiapas), the temperatures are too warm for the T2.1 EFG and they are more akin to T2.4 Laurophyll forests.
+
+### Quality
 * Source datasets are not characterized by model type (e.g. single- vs multi-variable, Foundation model vs other), basis for inclusion (GET superclass vs indicator species, and indicator species' EFG coverage), or spatial variation in model quality, meaning validation confidence is not consistent across a dataset's full extent. This limits the ability to perform reliable cell-wise or neighbourhood synthesis and overlap analysis. A standardized, spatially-explicit quality scoring system was considered but assessed as impractical without independent benchmarks; independent validation via EcoTrain is the preferred approach but has no confirmed completion date. Deferred to Phase 2 of Atlas refinement.
