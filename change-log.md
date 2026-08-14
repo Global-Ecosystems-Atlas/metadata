@@ -5,22 +5,31 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 
 ## Synthesis map unreleased - October 2026
 
-#### Changed
-* Metadata pixel value file names
-* Metadata pixel value column names to lower case and similar structure
-* Add and clarify Metadata pixel values of 0 for no data and 255 as non-referable
-
-
-## Synthesis map unreleased - October 2026
-
 #### Added
 * Functionality to update existing source data with new versions
 * Addition of new datasets
 * Addition of JCU inference maps
 
+### Changed
+* layer_id file increased from 16-bit to 32-bit depth to account for 5-digit numeric Layer IDs. 
+
+
+## Synthesis map v0.0.17 - 28 July 2026
+* v0.0.17 synthesis map export completed
+
+#### Added
+* 9 new datasets included in this version, including a global built-up layer, global seagrass map and global glacier data.
+
 #### Changed
-* Single-band layer name changes
-* 5-digit Layer ID implemented
+* File naming scheme updated for the single-band files. 
+* 5-digit numeric Layer ID implemented
+* In the layer_id file, a 5-digit numeric layer_id is used to identify the source raster or vector layer when multiples were included from the same source. 
+* Metadata for pixel values updated: 0 for no data and 255 as non-referable (unable to be cross-referenced to L3 GET)
+* Metadata pixel value file names updated
+* Metadata pixel value column names to lower case and similar structure
+
+#### Fixed
+* Various bugs fixed
 
 
 ## EcoTrain Training Dataset v0.1.6 - 27 July 2026
