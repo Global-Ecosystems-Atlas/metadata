@@ -14,6 +14,11 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 * layer_id file increased from 16-bit to 32-bit depth to account for 5-digit numeric Layer IDs. 
 
 
+## EcoTrain Training Dataset v0.1.8 - 28 August 2026
+
+See [release note](https://github.com/Global-Ecosystems-Atlas/ecotrain/releases/tag/v0.1.8)
+
+
 ## EcoTrain Training Dataset v0.1.7 - 17 August 2026
 
 See [release note](https://github.com/Global-Ecosystems-Atlas/ecotrain/releases/tag/v0.1.7)
