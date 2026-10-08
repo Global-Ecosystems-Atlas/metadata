@@ -22,7 +22,7 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 #### Changed
 * Organised files into version folders.
 * Harmonised file and column names across all files.
-* Replaced the NA code with NODATA (no data) and NOTREF (not referable).
+* Replaced the `NA` code with `NODATA` (no data) and `NOTREF` (not referable).
 
 #### Removed
 * Pixel value columns from colour palette files.
