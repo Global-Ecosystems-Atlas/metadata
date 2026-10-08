@@ -1,0 +1,2084 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "3.4.0",
+  "build" : 55405,
+  "layers" : [
+    "CIMPATH=Map/TempLyr.json"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMRasterLayer",
+      "name" : "TempLyr",
+      "uRI" : "CIMPATH=Map/TempLyr.json",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "description" : "TempLyr",
+      "layerType" : "Operational",
+      "showLegends" : true,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "dataConnection" : {
+        "type" : "CIMStandardDataConnection",
+        "workspaceConnectionString" : "DATABASE=C:\\Users\\jd172189\\Downloads\\Snippet\\",
+        "workspaceFactory" : "Raster",
+        "dataset" : "template_raster.tif",
+        "datasetType" : "esriDTRasterDataset"
+      },
+      "colorizer" : {
+        "type" : "CIMRasterUniqueValueColorizer",
+        "resamplingType" : "NearestNeighbor",
+        "noDataColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "fieldName" : "Value",
+        "groups" : [
+          {
+            "type" : "CIMRasterUniqueValueGroup",
+            "classes" : [
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "0"
+                ],
+                "label" : "No Data",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    255,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "1"
+                ],
+                "label" : "T1.1 Tropical/Subtropical lowland rainforests",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    50,
+                    160,
+                    107,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "2"
+                ],
+                "label" : "T1.2 Tropical/Subtropical dry forests and thickets",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    82,
+                    188,
+                    133,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "3"
+                ],
+                "label" : "T1.3 Tropical/Subtropical montane rainforests",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    111,
+                    217,
+                    161,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "4"
+                ],
+                "label" : "T1.4 Tropical heath forests",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    141,
+                    247,
+                    189,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "7"
+                ],
+                "label" : "T2.1 Boreal and temperate high montane forests and woodlands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    96,
+                    81,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "8"
+                ],
+                "label" : "T2.2 Deciduous temperate forests",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    50,
+                    148,
+                    131,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "9"
+                ],
+                "label" : "T2.3 Oceanic cool temperate rainforests",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    84,
+                    178,
+                    160,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "10"
+                ],
+                "label" : "T2.4 Warm temperate laurophyll forests",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    115,
+                    209,
+                    190,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "11"
+                ],
+                "label" : "T2.5 Temperate pyric humid forests",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    146,
+                    240,
+                    221,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "12"
+                ],
+                "label" : "T2.6 Temperate pyric sclerophyll forests and woodlands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    187,
+                    240,
+                    229,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "16"
+                ],
+                "label" : "T3.1 Seasonally dry tropical shrublands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    52,
+                    135,
+                    142,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "17"
+                ],
+                "label" : "T3.2 Seasonally dry temperate heath and shrublands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    87,
+                    167,
+                    174,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "18"
+                ],
+                "label" : "T3.3 Cool temperate heathlands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    120,
+                    200,
+                    207,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "19"
+                ],
+                "label" : "T3.4 Young rocky pavements, lava flows and screes",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    154,
+                    234,
+                    241,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "22"
+                ],
+                "label" : "T4.1 Trophic savannas",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    210,
+                    28,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "23"
+                ],
+                "label" : "T4.2 Pyric tussock savannas",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    161,
+                    52,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "24"
+                ],
+                "label" : "T4.3 Hummock savannas",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    145,
+                    16,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "25"
+                ],
+                "label" : "T4.4 Temperate woodlands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    107,
+                    0,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "26"
+                ],
+                "label" : "T4.5 Temperate subhumid grasslands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    110,
+                    0,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "30"
+                ],
+                "label" : "T5.1 Semi-desert steppe",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    210,
+                    121,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "31"
+                ],
+                "label" : "T5.2 Succulent or Thorny deserts and semi-deserts",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    238,
+                    196,
+                    113,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "32"
+                ],
+                "label" : "T5.3 Sclerophyll hot deserts and semi-deserts",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    179,
+                    142,
+                    62,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "33"
+                ],
+                "label" : "T5.4 Cool deserts and semi-deserts",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    136,
+                    103,
+                    22,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "34"
+                ],
+                "label" : "T5.5 Hyper-arid deserts",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    94,
+                    67,
+                    0,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "38"
+                ],
+                "label" : "T6.1 Ice sheets, glaciers and perennial snowfields",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    219,
+                    219,
+                    219,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "39"
+                ],
+                "label" : "T6.2 Polar/alpine cliffs, screes, outcrops and lava flows",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    199,
+                    199,
+                    199,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "40"
+                ],
+                "label" : "T6.3 Polar tundra and deserts",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    184,
+                    184,
+                    184,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "41"
+                ],
+                "label" : "T6.4 Temperate alpine grasslands and shrublands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    168,
+                    168,
+                    168,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "42"
+                ],
+                "label" : "T6.5 Tropical alpine grasslands and herbfields",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    148,
+                    148,
+                    148,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "46"
+                ],
+                "label" : "T7.1 Annual croplands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    20,
+                    161,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "47"
+                ],
+                "label" : "T7.2 Sown pastures and fields",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    202,
+                    0,
+                    121,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "48"
+                ],
+                "label" : "T7.3 Plantations",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    170,
+                    0,
+                    95,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "49"
+                ],
+                "label" : "T7.4 Urban and industrial ecosystems",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    139,
+                    0,
+                    71,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "50"
+                ],
+                "label" : "T7.5 Derived semi-natural pastures and old fields",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    108,
+                    0,
+                    48,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "54"
+                ],
+                "label" : "S1.1 Aerobic caves",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    192,
+                    172,
+                    20,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "55"
+                ],
+                "label" : "S1.2 Endolithic systems",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    242,
+                    217,
+                    24,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "57"
+                ],
+                "label" : "S2.1 Anthropogenic subterranean voids",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    157,
+                    191,
+                    61,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "59"
+                ],
+                "label" : "SF1.1 Underground streams and pools",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    212,
+                    150,
+                    134,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "60"
+                ],
+                "label" : "SF1.2 Groundwater ecosystems",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    181,
+                    161,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "62"
+                ],
+                "label" : "SF2.1 Water pipes and subterranean canals",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    251,
+                    157,
+                    196,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "63"
+                ],
+                "label" : "SF2.2 Flooded mines and other voids",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    198,
+                    126,
+                    140,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "65"
+                ],
+                "label" : "SM1.1 Anchialine caves",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    86,
+                    155,
+                    73,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "66"
+                ],
+                "label" : "SM1.2 Anchialine pools",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    135,
+                    103,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "67"
+                ],
+                "label" : "SM1.3 Sea caves",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    110,
+                    121,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "71"
+                ],
+                "label" : "TF1.2 Subtropical/temperate forested wetlands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    142,
+                    227,
+                    187,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "72"
+                ],
+                "label" : "TF1.3 Permanent marshes",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    159,
+                    255,
+                    211,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "73"
+                ],
+                "label" : "TF1.4 Seasonal floodplain marshes",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    147,
+                    214,
+                    153,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "74"
+                ],
+                "label" : "TF1.5 Episodic arid floodplains",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    175,
+                    214,
+                    179,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "75"
+                ],
+                "label" : "TF1.6 Boreal, temperate and montane peat bogs",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    193,
+                    241,
+                    149,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "76"
+                ],
+                "label" : "TF1.7 Boreal and temperate fens",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    223,
+                    241,
+                    207,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "81"
+                ],
+                "label" : "F1.1 Permanent upland streams",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    196,
+                    255,
+                    190,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "82"
+                ],
+                "label" : "F1.2 Permanent lowland rivers",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    171,
+                    245,
+                    163,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "83"
+                ],
+                "label" : "F1.3 Freeze-thaw rivers and streams",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    126,
+                    229,
+                    170,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "84"
+                ],
+                "label" : "F1.4 Seasonal upland streams",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    81,
+                    212,
+                    177,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "85"
+                ],
+                "label" : "F1.5 Seasonal lowland rivers",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    71,
+                    186,
+                    155,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "86"
+                ],
+                "label" : "F1.6 Episodic arid rivers",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    58,
+                    156,
+                    130,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "87"
+                ],
+                "label" : "F1.7 Large lowland rivers",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    45,
+                    119,
+                    99,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "92"
+                ],
+                "label" : "F2.1 Large permanent freshwater lakes",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    214,
+                    251,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "93"
+                ],
+                "label" : "F2.2 Small permanent freshwater lakes",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    184,
+                    248,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "94"
+                ],
+                "label" : "F2.3 Seasonal freshwater lakes",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    133,
+                    243,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "95"
+                ],
+                "label" : "F2.4 Freeze-thaw freshwater lakes",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    66,
+                    236,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "96"
+                ],
+                "label" : "F2.5 Ephemeral freshwater lakes",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    28,
+                    216,
+                    237,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "97"
+                ],
+                "label" : "F2.6 Permanent salt and soda lakes",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    25,
+                    190,
+                    209,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "98"
+                ],
+                "label" : "F2.7 Ephemeral salt lakes",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    157,
+                    177,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "99"
+                ],
+                "label" : "F2.8 Artesian springs and oases",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    122,
+                    138,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "100"
+                ],
+                "label" : "F2.9 Geothermal pools and wetlands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    92,
+                    107,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "101"
+                ],
+                "label" : "F2.10 Subglacial lakes",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    66,
+                    82,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "107"
+                ],
+                "label" : "F3.1 Large reservoirs",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    196,
+                    255,
+                    190,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "108"
+                ],
+                "label" : "F3.2 Constructed lacustrine wetlands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    171,
+                    245,
+                    163,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "109"
+                ],
+                "label" : "F3.3 Rice paddies",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    144,
+                    218,
+                    160,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "110"
+                ],
+                "label" : "F3.4 Freshwater aquafarms",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    81,
+                    212,
+                    177,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "111"
+                ],
+                "label" : "F3.5 Canals, ditches and drains",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    71,
+                    186,
+                    155,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "115"
+                ],
+                "label" : "FM1.1 Deepwater coastal inlets",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    212,
+                    58,
+                    153,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "116"
+                ],
+                "label" : "FM1.2 Permanently open riverine estuaries and bays",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    249,
+                    96,
+                    186,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "117"
+                ],
+                "label" : "FM1.3 Intermittently closed and open lakes and lagoons",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    131,
+                    220,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "120"
+                ],
+                "label" : "M1.1 Seagrass meadows",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    241,
+                    235,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "121"
+                ],
+                "label" : "M1.2 Kelp forests",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    233,
+                    224,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "122"
+                ],
+                "label" : "M1.3 Photic coral reefs",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    224,
+                    211,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "123"
+                ],
+                "label" : "M1.4 Shellfish beds and reefs",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    192,
+                    181,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "124"
+                ],
+                "label" : "M1.5 Photo-limited marine animal forests",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    161,
+                    151,
+                    254,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "125"
+                ],
+                "label" : "M1.6 Subtidal rocky reefs",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    137,
+                    124,
+                    254,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "126"
+                ],
+                "label" : "M1.7 Subtidal sand beds",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    111,
+                    102,
+                    238,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "127"
+                ],
+                "label" : "M1.8 Subtidal mud plains",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    94,
+                    86,
+                    209,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "128"
+                ],
+                "label" : "M1.9 Upwelling zones",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    86,
+                    83,
+                    166,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "129"
+                ],
+                "label" : "M1.10 Rhodolith/MaÃ«rl beds",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    60,
+                    57,
+                    115,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "135"
+                ],
+                "label" : "M2.1 Epipelagic ocean waters",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    206,
+                    168,
+                    254,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "136"
+                ],
+                "label" : "M2.2 Mesopelagic ocean water",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    183,
+                    129,
+                    250,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "137"
+                ],
+                "label" : "M2.3 Bathypelagic ocean waters",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    164,
+                    116,
+                    224,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "138"
+                ],
+                "label" : "M2.4 Abyssopelagic ocean waters",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    149,
+                    105,
+                    204,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "139"
+                ],
+                "label" : "M2.5 Sea ice",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    112,
+                    79,
+                    153,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "143"
+                ],
+                "label" : "M3.1 Continental and island slopes",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    27,
+                    118,
+                    147,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "144"
+                ],
+                "label" : "M3.2 Submarine canyons",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    33,
+                    146,
+                    181,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "145"
+                ],
+                "label" : "M3.3 Abyssal plains",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    39,
+                    174,
+                    216,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "146"
+                ],
+                "label" : "M3.4 Seamounts, ridges and plateaus",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    82,
+                    190,
+                    224,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "147"
+                ],
+                "label" : "M3.5 Deepwater biogenic beds",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    156,
+                    218,
+                    237,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "148"
+                ],
+                "label" : "M3.6 Hadal trenches and troughs",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    168,
+                    234,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "149"
+                ],
+                "label" : "M3.7 Chemosynthetic-based-ecosystems (CBE)",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    219,
+                    247,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "154"
+                ],
+                "label" : "M4.1 Submerged artificial structures",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    153,
+                    74,
+                    142,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "155"
+                ],
+                "label" : "M4.2 Marine aquafarms",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    123,
+                    46,
+                    114,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "157"
+                ],
+                "label" : "MT1.1 Rocky shorelines",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    135,
+                    130,
+                    210,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "158"
+                ],
+                "label" : "MT1.2 Muddy shorelines",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    164,
+                    158,
+                    240,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "159"
+                ],
+                "label" : "MT1.3 Sandy shorelines",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    194,
+                    186,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "160"
+                ],
+                "label" : "MT1.4 Boulder and cobble shores",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    224,
+                    215,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "163"
+                ],
+                "label" : "MT2.1 Coastal shrublands and grasslands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    114,
+                    107,
+                    218,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "164"
+                ],
+                "label" : "MT2.2 Large seabird and pinniped colonies",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    86,
+                    81,
+                    166,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "166"
+                ],
+                "label" : "MT3.1 Artificial shorelines",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    206,
+                    201,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "168"
+                ],
+                "label" : "MFT1.1 Coastal river deltas",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    172,
+                    103,
+                    109,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "169"
+                ],
+                "label" : "MFT1.2 Intertidal forests and shrublands",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    137,
+                    71,
+                    78,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "170"
+                ],
+                "label" : "MFT1.3 Coastal saltmarshes and reedbeds",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    103,
+                    41,
+                    49,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "255"
+                ],
+                "label" : "NA No Data",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    255,
+                    255,
+                    100
+                  ]
+                }
+              }
+            ],
+            "heading" : "Value"
+          }
+        ],
+        "colorRamp" : {
+          "type" : "CIMMultipartColorRamp",
+          "colorRamps" : [
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  76.846907633328769,
+                  0,
+                  0,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  56.547017615341019,
+                  76.899433471346256,
+                  68.103444271380823,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  56.547017615341019,
+                  76.899433471346256,
+                  68.103444271380823,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  79.276993261605071,
+                  17.12111142164019,
+                  77.09125175223042,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  79.276993261605071,
+                  17.12111142164019,
+                  77.09125175223042,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  96.683616491167115,
+                  -20.419171018551619,
+                  87.367929001284963,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  96.683616491167115,
+                  -20.419171018551619,
+                  87.367929001284963,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  85.607074229000403,
+                  -91.486192975967157,
+                  73.962202685380788,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  85.607074229000403,
+                  -91.486192975967157,
+                  73.962202685380788,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  96.683616491167115,
+                  -20.419171018551619,
+                  87.367929001284963,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  89.644590646826003,
+                  -51.521697716782114,
+                  -16.300660645455501,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  68.955513833844876,
+                  -14.700660868053717,
+                  -47.117856942647563,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  68.955513833844876,
+                  -14.700660868053717,
+                  -47.117856942647563,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  34.668982832368499,
+                  71.125560221348664,
+                  -101.88789308244294,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  34.668982832368499,
+                  71.125560221348664,
+                  -101.88789308244294,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  63.995042207660305,
+                  92.113234125181236,
+                  -53.03187738755495,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  63.995042207660305,
+                  92.113234125181236,
+                  -53.03187738755495,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  56.547017615341019,
+                  76.899433471346256,
+                  68.103444271380823,
+                  100
+                ]
+              }
+            }
+          ],
+          "weights" : [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "attributeTable" : {
+        "type" : "CIMRasterTable",
+        "displayField" : "Value",
+        "editable" : true
+      }
+    }
+  ],
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2"
+}
