@@ -14,6 +14,20 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 * layer_id file increased from 16-bit to 32-bit depth to account for 5-digit numeric Layer IDs. 
 
 
+## Colour palette and pixel value files v1.0.0 - 8 October 2026
+
+#### Added
+* Files now available from cloud storage.
+
+#### Changed
+* Organised files into version folders.
+* Harmonised file and column names across all files.
+* Replaced the NA code with NODATA (no data) and NOTREF (not referable).
+
+#### Removed
+* Pixel value columns from colour palette files.
+
+
 ## EcoTrain Training Dataset v0.1.9 - 2 October 2026
 
 See [release note](https://github.com/Global-Ecosystems-Atlas/ecotrain/releases/tag/v0.1.9)
