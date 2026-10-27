@@ -3,15 +3,12 @@
 This document provides a log of all notable changes of the Global Ecosystems Atlas data products or resources. We list notable changes by date and include notable changes, major new features, announcements, or data products. Please note that changes to the Global Ecosystems Atlas Initiative prior to September 1 2025 are not listed here. We use principles from [keep a change log](https://keepachangelog.com/en/1.1.0/).
 
 
-## Synthesis map unreleased - October 2026
+## Synthesis map unreleased - January 2027
 
 #### Added
-* Functionality to update existing source data with new versions
 * Addition of new datasets
-* Addition of JCU inference maps
-
-### Changed
-* layer_id file increased from 16-bit to 32-bit depth to account for 5-digit numeric Layer IDs.
+* Addition of JCU gap-filling maps
+* Public data download links
 
 
 ## Synthesis map v0.0.20 - 12 October 2026
