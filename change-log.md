@@ -11,7 +11,15 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 * Addition of JCU inference maps
 
 ### Changed
-* layer_id file increased from 16-bit to 32-bit depth to account for 5-digit numeric Layer IDs. 
+* layer_id file increased from 16-bit to 32-bit depth to account for 5-digit numeric Layer IDs.
+
+
+## Synthesis map v0.0.20 - 12 October 2026
+* v0.0.20 synthesis map export completed
+
+#### Fixed
+* M3 layers reordered to sit in the correct configuration
+* Greenland, Canada and China processing units rerun 
 
 
 ## Colour palette and pixel value files v1.0.0 - 8 October 2026
@@ -26,6 +34,19 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 
 #### Removed
 * Pixel value columns from colour palette files.
+
+## Synthesis map v0.0.19 - 5 October 2026
+* v0.0.19 synthesis map export completed
+
+#### Added
+* 12 new datasets included in this version, including offshore wind turbine data, a vegetation map for East Africa, a Europe map, and a vegetation map of Armenia.
+
+#### Changed
+* Updated country boundaries applied. See more: https://www.arcgis.com/home/group.html?id=faf99e9dd3db4031a78084a2854ef073#overview
+* layer_id file now available as a 32-bit raster file
+
+#### Fixed
+* Various bugs fixed
 
 
 ## EcoTrain Training Dataset v0.1.9 - 2 October 2026
