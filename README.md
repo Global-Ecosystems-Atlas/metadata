@@ -19,7 +19,9 @@ This folder houses a range of metadata relevant to compiling and presenting the 
 #### Standalone EFG Layers
 * These ensure legitimately co-occuring EFGs are captured in separate standalone binary layers to the synthesis map
 * The synthesis map EFG layer represents ecosystems on the continuous surface layer of the earth, such as terrestrial and benthic ecosystems, while the standalone layers capture those that co-occur with these surface ecosystems, such as pelagic and subterranean ecosystems.
-* The full _suggested_ list of standalone EFGs is as follows:  
+* The full _suggested_ list of standalone EFGs is as follows:
+   
+```
 S1.1 Aerobic caves. These are served as single 100m pixels at the cave entrance, as source data is typically served as point occurences.  
 S1.2 Endolithic systems  
 S2.1 Anthropogenic subterranean voids   
@@ -37,7 +39,8 @@ M2.3 Bathypelagic ocean waters
 M2.4 Abyssopelagic ocean waters  
 M2.5 Sea ice  
 M4.1 Submerged artificial structures, served as single 100m pixels per point occurrence.  
-MFT 1.1 Coastal river deltas  
+MFT 1.1 Coastal river deltas
+``` 
   * Note: EFGs with a "*" in the standalone_EFG field in the efg_pixelvalues file represent the main EFGs up for discussion on whether they should be treated as standalone EFGs or not.
 
 
