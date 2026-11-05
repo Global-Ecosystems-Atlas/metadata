@@ -18,8 +18,8 @@ This folder houses a range of metadata relevant to compiling and presenting the 
 
 #### Standalone EFG Layers
 * These ensure legitimately co-occuring EFGs are captured in separate standalone binary layers to the synthesis map
-* The synthesis map EFG layer represents ecosystems on the continuous surface layer of the earth, such as terrestrial and benthic ecosystems, while the standalone layers capture those that co-occur with these surface ecosystems, such as pelagic and subterranean ecosystems.
-* The full _suggested_ list of standalone EFGs is as follows:
+* The composite EFG layer of the synthesis map represents ecosystems on the continuous surface layer of the earth, such as terrestrial and benthic ecosystems, while the standalone layers capture those that co-occur with these surface ecosystems, such as pelagic and subterranean ecosystems.
+* The full list of standalone EFGs is as follows:
    
 ```
 S1.1 Aerobic caves. These are served as single 100m pixels at the cave entrance, as source data is typically served as point occurences.  
@@ -31,7 +31,10 @@ SF2.1 Water pipes and subterranean canals
 SF2.2 Flooded mines and other voids  
 SM1.1 Anchialine caves. These are served as single 100m pixels at the cave entrance.  
 SM1.3 Sea caves. These are served as single 100m pixels at the cave entrance.  
-F2.10 Subglacial lakes, served as single 100m pixels per point occurrence.  
+F2.10 Subglacial lakes, served as single 100m pixels per point occurrence.
+FM1.1 Deepwater coastal inlets. FM biome represents the water column. The corresponding benthos should be mapped comprehensively and displayed on the composite map. 
+FM1.2 Permanently open riverine estuaries and bays
+FM1.3 Intermittently closed and open lakes and lagoons
 M1.9 Upwelling zones  
 M2.1 Epipelagic ocean waters  
 M2.2 Mesopelagic ocean water  
@@ -41,7 +44,6 @@ M2.5 Sea ice
 M4.1 Submerged artificial structures, served as single 100m pixels per point occurrence.  
 MFT 1.1 Coastal river deltas
 ``` 
-  * Note: EFGs with a "*" in the standalone_EFG field in the efg_pixelvalues file represent the main EFGs up for discussion on whether they should be treated as standalone EFGs or not.
 
 
 #### Change-log
