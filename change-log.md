@@ -9,6 +9,7 @@ This document provides a log of all notable changes of the Global Ecosystems Atl
 * Addition of new datasets
 * Addition of JCU gap-filling maps
 * Public data download links
+* Standalone_count layer added that identifies how many standalone ecosystems are present per pixel
 
 
 ## Synthesis map v0.0.20 - 12 October 2026
