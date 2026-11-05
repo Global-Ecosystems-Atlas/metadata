@@ -42,7 +42,7 @@ SF1.2 Groundwater ecosystems,SF1.2,Groundwater ecosystems,60,SF1 Subterranean fr
 SF2.1 Water pipes and subterranean canals,SF2.1,Water pipes and subterranean canals,62,SF2 Anthropogenic subterranean freshwaters,SF2,Anthropogenic subterranean freshwaters,11,SF Subterranean-Freshwater,SF,Subterranean-Freshwater,3,True
 SF2.2 Flooded mines and other voids,SF2.2,Flooded mines and other voids,63,SF2 Anthropogenic subterranean freshwaters,SF2,Anthropogenic subterranean freshwaters,11,SF Subterranean-Freshwater,SF,Subterranean-Freshwater,3,True
 SM1.1 Anchialine caves,SM1.1,Anchialine caves,65,SM1 Subterranean tidal,SM1,Subterranean tidal,12,SM Subterranean-Marine,SM,Subterranean-Marine,4,True
-SM1.2 Anchialine pools,SM1.2,Anchialine pools,66,SM1 Subterranean tidal,SM1,Subterranean tidal,12,SM Subterranean-Marine,SM,Subterranean-Marine,4,False*
+SM1.2 Anchialine pools,SM1.2,Anchialine pools,66,SM1 Subterranean tidal,SM1,Subterranean tidal,12,SM Subterranean-Marine,SM,Subterranean-Marine,4,False
 SM1.3 Sea caves,SM1.3,Sea caves,67,SM1 Subterranean tidal,SM1,Subterranean tidal,12,SM Subterranean-Marine,SM,Subterranean-Marine,4,True
 TF1.1 Tropical flooded forests and peat forests,TF1.1,Tropical flooded forests and peat forests,70,TF1 Palustrine wetlands,TF1,Palustrine wetlands,13,TF Terrestrial-Freshwater,TF,Terrestrial-Freshwater,5,False
 TF1.2 Subtropical/temperate forested wetlands,TF1.2,Subtropical/temperate forested wetlands,71,TF1 Palustrine wetlands,TF1,Palustrine wetlands,13,TF Terrestrial-Freshwater,TF,Terrestrial-Freshwater,5,False
@@ -73,9 +73,9 @@ F3.2 Constructed lacustrine wetlands,F3.2,Constructed lacustrine wetlands,108,F3
 F3.3 Rice paddies,F3.3,Rice paddies,109,F3 Artificial wetlands,F3,Artificial wetlands,16,F Freshwater,F,Freshwater,6,False
 F3.4 Freshwater aquafarms,F3.4,Freshwater aquafarms,110,F3 Artificial wetlands,F3,Artificial wetlands,16,F Freshwater,F,Freshwater,6,False
 "F3.5 Canals, ditches and drains",F3.5,"Canals, ditches and drains",111,F3 Artificial wetlands,F3,Artificial wetlands,16,F Freshwater,F,Freshwater,6,False
-FM1.1 Deepwater coastal inlets,FM1.1,Deepwater coastal inlets,115,FM1 Semi-confined transitional waters,FM1,Semi-confined transitional waters,17,FM Freshwater-Marine,FM,Freshwater-Marine,7,False*
-FM1.2 Permanently open riverine estuaries and bays,FM1.2,Permanently open riverine estuaries and bays,116,FM1 Semi-confined transitional waters,FM1,Semi-confined transitional waters,17,FM Freshwater-Marine,FM,Freshwater-Marine,7,False*
-FM1.3 Intermittently closed and open lakes and lagoons,FM1.3,Intermittently closed and open lakes and lagoons,117,FM1 Semi-confined transitional waters,FM1,Semi-confined transitional waters,17,FM Freshwater-Marine,FM,Freshwater-Marine,7,False
+FM1.1 Deepwater coastal inlets,FM1.1,Deepwater coastal inlets,115,FM1 Semi-confined transitional waters,FM1,Semi-confined transitional waters,17,FM Freshwater-Marine,FM,Freshwater-Marine,7,TRUE
+FM1.2 Permanently open riverine estuaries and bays,FM1.2,Permanently open riverine estuaries and bays,116,FM1 Semi-confined transitional waters,FM1,Semi-confined transitional waters,17,FM Freshwater-Marine,FM,Freshwater-Marine,7,TRUE
+FM1.3 Intermittently closed and open lakes and lagoons,FM1.3,Intermittently closed and open lakes and lagoons,117,FM1 Semi-confined transitional waters,FM1,Semi-confined transitional waters,17,FM Freshwater-Marine,FM,Freshwater-Marine,7,TRUE
 M1.1 Seagrass meadows,M1.1,Seagrass meadows,120,M1 Marine shelf,M1,Marine shelf,18,M Marine,M,Marine,8,False
 M1.2 Kelp forests,M1.2,Kelp forests,121,M1 Marine shelf,M1,Marine shelf,18,M Marine,M,Marine,8,False
 M1.3 Photic coral reefs,M1.3,Photic coral reefs,122,M1 Marine shelf,M1,Marine shelf,18,M Marine,M,Marine,8,False
@@ -84,7 +84,7 @@ M1.5 Photo-limited marine animal forests,M1.5,Photo-limited marine animal forest
 M1.6 Subtidal rocky reefs,M1.6,Subtidal rocky reefs,125,M1 Marine shelf,M1,Marine shelf,18,M Marine,M,Marine,8,False
 M1.7 Subtidal sand beds,M1.7,Subtidal sand beds,126,M1 Marine shelf,M1,Marine shelf,18,M Marine,M,Marine,8,False
 M1.8 Subtidal mud plains,M1.8,Subtidal mud plains,127,M1 Marine shelf,M1,Marine shelf,18,M Marine,M,Marine,8,False
-M1.9 Upwelling zones,M1.9,Upwelling zones,128,M1 Marine shelf,M1,Marine shelf,18,M Marine,M,Marine,8,True*
+M1.9 Upwelling zones,M1.9,Upwelling zones,128,M1 Marine shelf,M1,Marine shelf,18,M Marine,M,Marine,8,True
 M1.10 Rhodolith/Maërl beds,M1.10,Rhodolith/Maërl beds,129,M1 Marine shelf,M1,Marine shelf,18,M Marine,M,Marine,8,False
 M2.1 Epipelagic ocean waters,M2.1,Epipelagic ocean waters,135,M2 Pelagic ocean waters,M2,Pelagic ocean waters,19,M Marine,M,Marine,8,True
 M2.2 Mesopelagic ocean water,M2.2,Mesopelagic ocean water,136,M2 Pelagic ocean waters,M2,Pelagic ocean waters,19,M Marine,M,Marine,8,True
@@ -99,7 +99,7 @@ M3.5 Deepwater biogenic beds,M3.5,Deepwater biogenic beds,147,M3 Deep sea floors
 M3.6 Hadal trenches and troughs,M3.6,Hadal trenches and troughs,148,M3 Deep sea floors,M3,Deep sea floors,20,M Marine,M,Marine,8,False
 M3.7 Chemosynthetic-based-ecosystems (CBE),M3.7,Chemosynthetic-based-ecosystems (CBE),149,M3 Deep sea floors,M3,Deep sea floors,20,M Marine,M,Marine,8,False
 M4.1 Submerged artificial structures,M4.1,Submerged artificial structures,154,M4 Anthropogenic marine,M4,Anthropogenic marine,21,M Marine,M,Marine,8,True
-M4.2 Marine aquafarms,M4.2,Marine aquafarms,155,M4 Anthropogenic marine,M4,Anthropogenic marine,21,M Marine,M,Marine,8,False*
+M4.2 Marine aquafarms,M4.2,Marine aquafarms,155,M4 Anthropogenic marine,M4,Anthropogenic marine,21,M Marine,M,Marine,8,False
 MT1.1 Rocky shorelines,MT1.1,Rocky shorelines,157,MT1 Shorelines,MT1,Shorelines,22,MT Marine-Terrestrial,MT,Marine-Terrestrial,9,False
 MT1.2 Muddy shorelines,MT1.2,Muddy shorelines,158,MT1 Shorelines,MT1,Shorelines,22,MT Marine-Terrestrial,MT,Marine-Terrestrial,9,False
 MT1.3 Sandy shorelines,MT1.3,Sandy shorelines,159,MT1 Shorelines,MT1,Shorelines,22,MT Marine-Terrestrial,MT,Marine-Terrestrial,9,False
@@ -107,7 +107,7 @@ MT1.4 Boulder and cobble shores,MT1.4,Boulder and cobble shores,160,MT1 Shorelin
 MT2.1 Coastal shrublands and grasslands,MT2.1,Coastal shrublands and grasslands,163,MT2 Supralittoral coastal,MT2,Supralittoral coastal,23,MT Marine-Terrestrial,MT,Marine-Terrestrial,9,False
 MT2.2 Large seabird and pinniped colonies,MT2.2,Large seabird and pinniped colonies,164,MT2 Supralittoral coastal,MT2,Supralittoral coastal,23,MT Marine-Terrestrial,MT,Marine-Terrestrial,9,False
 MT3.1 Artificial shorelines,MT3.1,Artificial shorelines,166,MT3 Anthropogenic shorelines,MT3,Anthropogenic shorelines,24,MT Marine-Terrestrial,MT,Marine-Terrestrial,9,False
-MFT1.1 Coastal river deltas,MFT1.1,Coastal river deltas,168,MFT1 Brackish tidal,MFT1,Brackish tidal,25,MFT Marine-Freshwater-Terrestrial,MFT,Marine-Freshwater-Terrestrial,10,True*
+MFT1.1 Coastal river deltas,MFT1.1,Coastal river deltas,168,MFT1 Brackish tidal,MFT1,Brackish tidal,25,MFT Marine-Freshwater-Terrestrial,MFT,Marine-Freshwater-Terrestrial,10,True
 MFT1.2 Intertidal forests and shrublands,MFT1.2,Intertidal forests and shrublands,169,MFT1 Brackish tidal,MFT1,Brackish tidal,25,MFT Marine-Freshwater-Terrestrial,MFT,Marine-Freshwater-Terrestrial,10,False
 MFT1.3 Coastal saltmarshes and reedbeds,MFT1.3,Coastal saltmarshes and reedbeds,170,MFT1 Brackish tidal,MFT1,Brackish tidal,25,MFT Marine-Freshwater-Terrestrial,MFT,Marine-Freshwater-Terrestrial,10,False
 Not referable,NOTREF,Not referable,255,Not referable,NOTREF,Not referable,255,Not referable,NOTREF,Not referable,255,False
